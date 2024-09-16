@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apiGateway" />
+        <module name="User" />
+        <module name="AccountManagementMS" />
+        <module name="Microservices-Basics-Eureka-Server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AccountManagementMS" options="-parameters" />
+      <module name="Microservices-Basics-Eureka-Server" options="-parameters" />
+      <module name="User" options="-parameters" />
+      <module name="apiGateway" options="-parameters" />
+    </option>
+  </component>
+</project>
